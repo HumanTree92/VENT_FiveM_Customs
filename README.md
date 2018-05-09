@@ -1,5 +1,4 @@
 # [XML + YMAP] FiveM & GTA V Custom Map Addons by Human Tree92
-Material_Load is a loading screen developed by github.com/Loqrin. The loading screen comes with a configurable JSON file, to configure the loading screen to the user's liking. The JSON has configs such as:
 I have will be creating & modifying this as needed. These are only to improve RP Experience within FiveM but i will include the XMLs for those that wish to use it for anything else. Current Map Addons:
 + Weigh Stations - 2 where used from https://www.gta5-mods.com/maps/weigh-station-officerdeyoung.
 + Policing Department Upgrades.
