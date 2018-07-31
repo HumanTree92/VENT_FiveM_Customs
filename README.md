@@ -34,5 +34,17 @@ If you like this please check out some of my other stuff like
 * [esx_panicbutton](https://github.com/HumanTree92/esx_panicbutton)
 * [FiveM_CustomMapAddons](https://github.com/HumanTree92/FiveM_CustomMapAddons)
 
-# If you appreciate any of my work & wish to give me a donation you can go donate to my Company/Community at the link below.
-* [Velociti Entertainment Donations](http://www.velocitientertainment.com/donations/)
+# Visit Velociti Entertainment
+* [TS3](http://www.velocitientertainment.com/ts3/)
+* [Discord](https://discord.gg/azEY2kU)
+* [Website](www.velocitientertainment.com/)
+* [Forums](www.velocitientertainment.com/forum)
+* [Servers](www.velocitientertainment.com/servers/)
+* [Donate](http://www.velocitientertainment.com/donations/)
+* [Steam Group](http://steamcommunity.com/groups/velocitientertainment)
+* [Facebook](www.facebook.com/VelocitiEntertainment)
+* [Twitter](www.twitter.com/VelocitiEnt)
+* [YouTube](www.youtube.com/user/HumanTree92)
+* [Twitch](www.twitch.tv/humantree92)
+* [eBay](www.ebay.com/usr/humantree92)
+* Kik #vegaming
