@@ -1,10 +1,10 @@
 # [YMAP] FiveM & GTA V Custom Map Addons
 These are Custom Map Addons that i have worked on. These are only to Improve RP Experience within FiveM. Don't ask for the XMLs
-* Weigh Stations - 2 where used from https://www.gta5-mods.com/maps/weigh-station-officerdeyoung.
-* Policing Dept Uprades - Adds Gates, Fences, & Lighting around Mission Row PD, Sandy Shores SD, & Paleto Bay SD.
-* Race Track - Race Track that i found online but edited it to fit for FiveM
-* LS Driving School - Found online ported to FiveM
-* Route 13 Barriers - Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem.
+* Weigh Stations - 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
+* Policing Dept Uprades - Adds Gates, Fences, & Lighting to Mission Row PD, Sandy Shores SD, & Paleto Bay SD.
+* Race Track - Modified from [THIS](https://www.gta5-mods.com/maps/casino-racetrack-map-editor).
+* LS Driving School - Ported to FiveM. Original [HERE](https://www.gta5-mods.com/maps/driving-school-v).
+* Route 13 Barriers - Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem. Route 13 Lights Download [HERE](https://forum.fivem.net/t/release-faxes-map-collection-ymap-update-31-jan/73469).
 
 # Download & Installation
 1) Download the .zip.
