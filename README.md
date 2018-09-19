@@ -1,7 +1,10 @@
 # [YMAP] FiveM & GTA V Custom Map Addons
 These are Custom Map Addons that i have made. These are only to Improve RP Experience within FiveM. Don't ask for the XMLs & don't Upload anywhere else without my permission.
+* LSPD Upgrade - Adds Gates, Fences, Lighting, & Increases the looks of Mission Row Police Dept.
+* SSSD Upgrade - Adds Gates, Fences, Lighting, Heli Pads, & Increases the looks of Sandy Shores Sheriffs Dept.
+* PBSD Upgrade - Adds Gate, Lighting, & Increases the looks of Paleto Bay Sheriffs Dept.
+* Misc Upgrade - Adds various lighting on Heli Pads & buildings.
 * Weigh Stations - 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
-* Policing Dept Uprades - Adds Gates, Fences, & Lighting to Mission Row PD, Sandy Shores SD, & Paleto Bay SD.
 * Route 13 Barriers - Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem. Route 13 Lights Download [HERE](https://forum.fivem.net/t/release-faxes-map-collection-ymap-update-31-jan/73469).
 
 These are YMAPs that i have editied. But did not Make
