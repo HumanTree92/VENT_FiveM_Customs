@@ -14,13 +14,12 @@ These are YMAPs that i have editied. But did not Make
 # Download & Installation
 1) Download the .zip.
 2) Extract the .zip or Open the .zip.
-3) Create a Folder inside your Resources called `custommapaddons` or whatever you like.
-4) Make a Resouces folder & put `this_is_a_map 'yes'` inside.
-5) Make a Stream folder `stream` & place the ymaps inside here.
-6) Add this in your `server.cfg`:
+3) Rename the folder to whatever you like (Example: `mapaddons`)
+4) Place the Folder in your resources Folder.
+5) Add this in your `server.cfg`:
 
 ```
-start custommapaddons
+start mapaddons
 ```
 
 # Other
