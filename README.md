@@ -27,6 +27,116 @@ These are YMAPs that i have editied. But did not Make
 ```
 start mapaddons
 ```
+# esx_doorlock Gates
+
+	-- Zancudo Military Base Front Entrance
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = -1587.23, y = 2805.08, z = 15.82},
+		textCoords = {x = -1587.23, y = 2805.08, z = 19.82},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 12,
+		size = 2
+	},
+	
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = -1600.29, y = 2793.74, z = 15.74},
+		textCoords = {x = -1600.29, y = 2793.74, z = 19.74},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 12,
+		size = 2
+	},
+	
+	-- Zancudo Military Base Back Entrance
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = -2296.17, y = 3393.1, z = 30.07},
+		textCoords = {x = -2296.17, y = 3393.1, z = 34.07},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 12,
+		size = 2
+	},
+	
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = -2306.13, y = 3379.3, z = 30.2},
+		textCoords = {x = -2306.13, y = 3379.3, z = 34.2},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 12,
+		size = 2
+	},
+	
+	-- Paleto Bay Parking Lot Gate
+	{
+		objName = 'prop_facgate_08',
+		objCoords  = {x = -455.59, y = 6030.1, z = 30.34},
+		textCoords = {x = -455.59, y = 6030.1, z = 34.34},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Mission Row PD Parking Lot Gate
+	{
+		objName = 'prop_gate_military_01',
+		objCoords  = {x = 415.71, y = -1024.84, z = 28.14},
+		textCoords = {x = 415.71, y = -1024.84, z = 30.14},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Sandy Shores Parking Lot Gates
+	-- PD Front Gate
+	{
+		objName = 'prop_gate_military_01',
+		objCoords  = {x = 1871.62, y = 3681.23, z = 32.35},
+		textCoords = {x = 1871.62, y = 3681.23, z = 34.35},
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- PD Back Gate
+	{
+		objName = 'prop_gate_military_01',
+		objCoords  = {x = 1858.11, y = 3719.22, z = 32.03},
+		textCoords = {x = 1858.11, y = 3719.22, z = 34.03},
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- FR Back Gate (Exit)
+	{
+		objName = 'prop_gate_military_01',
+		objCoords  = {x = 1845.07, y = 3712.2, z = 32.17},
+		textCoords = {x = 1845.07, y = 3712.2, z = 34.17},
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- FR Front Gate (Entrance)
+	{
+		objName = 'prop_gate_military_01',
+		objCoords  = {x = 1804.49, y = 3675.7, z = 33.21},
+		textCoords = {x = 1804.49, y = 3675.7, z = 35.21},
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
 
 # Other
 If you like this please check out some of my other stuff like
