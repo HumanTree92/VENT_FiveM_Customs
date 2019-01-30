@@ -1,4 +1,4 @@
-# [YMAP] FiveM & GTA V Custom Map Addons
+# [YMAP] FiveM & GTA V Custom Map Addons:
 These are Custom Map Addons that i have made. These are only to Improve RP Experience within FiveM. Don't ask for the XMLs & don't Upload anywhere else without my permission.
 * LSPD Upgrade - Adds Gates, Fences, Lighting, & Increases the looks of Mission Row Police Dept.
   * [LSPD Upgrade Images HERE](https://imgur.com/a/sDzbEhL)
@@ -17,7 +17,7 @@ These are YMAPs that i have editied. But did not Make
 * Race Track - Modified from [THIS](https://www.gta5-mods.com/maps/casino-racetrack-map-editor).
 * LS Driving School - Ported to FiveM. Original [HERE](https://www.gta5-mods.com/maps/driving-school-v).
 
-# Download & Installation
+# Download & Installation:
 1) Download the .zip.
 2) Extract the .zip or Open the .zip.
 3) Rename the folder to whatever you like (Example: `mapaddons`)
@@ -27,7 +27,7 @@ These are YMAPs that i have editied. But did not Make
 ```
 start mapaddons
 ```
-# esx_doorlock Gates
+# esx_doorlock Gates:
 
 	-- Zancudo Military Base Front Entrance
 	{
@@ -138,20 +138,18 @@ start mapaddons
 		size = 2
 	},
 
-# Other
+# Other:
 If you like this please check out some of my other stuff like
-* [esx_customui](https://github.com/HumanTree92/esx_customui)
 * [esx_hospital](https://github.com/HumanTree92/esx_hospital)
 * [esx_extraitems](https://github.com/HumanTree92/esx_extraitems)
 * [esx_aircraftshop](https://github.com/HumanTree92/esx_aircraftshop)
 * [esx_boatshop](https://github.com/HumanTree92/esx_boatshop)
-* [esx_eden_aircraftgarage](https://github.com/HumanTree92/esx_eden_aircraftgarage)
-* [esx_eden_boatgarage](https://github.com/HumanTree92/esx_eden_boatgarage)
-* [esx_eden_garage](https://github.com/HumanTree92/esx_eden_garage)
+* [esx_truckshop](https://github.com/HumanTree92/esx_truckshop)
+* [esx_advancedgarage](https://github.com/HumanTree92/esx_advancedgarage)
 * [esx_panicbutton](https://github.com/HumanTree92/esx_panicbutton)
 * [FiveM_CustomMapAddons](https://github.com/HumanTree92/FiveM_CustomMapAddons)
 
-# Visit Velociti Entertainment
+# Visit Velociti Entertainment:
 * [TS3](http://www.velocitientertainment.com/ts3/)
 * [Discord](https://discord.gg/azEY2kU)
 * [Website](www.velocitientertainment.com/)
@@ -165,3 +163,15 @@ If you like this please check out some of my other stuff like
 * [Twitch](www.twitch.tv/humantree92)
 * [eBay](www.ebay.com/usr/humantree92)
 * Kik #vegaming
+
+# Legal
+### License
+FiveM_CustomMapAddons - Custom YMAP Files for FiveM Servers.
+
+Copyright (C) 2011-2018 Velociti Entertainment
+
+This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
+
+This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
+
+You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
