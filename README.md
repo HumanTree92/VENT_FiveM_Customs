@@ -1,21 +1,19 @@
 # [YMAP] FiveM & GTA V Custom Map Addons:
 These are Custom Map Addons that i have made. These are only to Improve RP Experience within FiveM. Don't ask for the XMLs & don't Upload anywhere else without my permission.
-* LSPD Upgrade - Adds Gates, Fences, Lighting, & Increases the looks of Mission Row Police Dept.
-  * [LSPD Upgrade Images HERE](https://imgur.com/a/sDzbEhL)
-* SSSD Upgrade - Adds Gates, Fences, Lighting, Heli Pads, & Increases the looks of Sandy Shores Sheriffs Dept.
-  * [SSSD Upgrade Images HERE](https://imgur.com/a/Y8FR0a0)
-* PBSD Upgrade - Adds Gate, Lighting, & Increases the looks of Paleto Bay Sheriffs Dept.
-  * [PBSD Upgrade Images HERE](https://imgur.com/a/j0jmmNH)
-* Misc Upgrade - Adds various lighting on Heli Pads & buildings.
-  * [Misc Upgrade Images HERE](https://imgur.com/a/zoEPwae)
-* Military Gates Upgrade - Adds Gates & Signs at Military Base.
-  * [Military Gates Upgrade Images HERE](https://imgur.com/a/AHk3AnF)
+* LSPD Upgrades - Adds Gates, Fences, Lighting, & Increases the looks of Mission Row Police Dept.
+  * [LSPD Upgrades Images HERE](https://imgur.com/a/sDzbEhL)
+* SSSD Upgrades - Adds Gates, Fences, Lighting, Heli Pads, & Increases the looks of Sandy Shores Sheriffs Dept.
+  * [SSSD Upgrades Images HERE](https://imgur.com/a/Y8FR0a0)
+* PBSD Upgrades - Adds Gate, Lighting, & Increases the looks of Paleto Bay Sheriffs Dept.
+  * [PBSD Upgrades Images HERE](https://imgur.com/a/j0jmmNH)
+* Misc Upgrades - Adds various lighting on Heli Pads & buildings.
+  * [Misc Upgrades Images HERE](https://imgur.com/a/zoEPwae)
+* Military Gates Upgrades - Adds Gates & Signs at Military Base.
+  * [Military Gates Upgrades Images HERE](https://imgur.com/a/AHk3AnF)
+* FBI Upgrades - Adds Gates, Fences, & secures the Parking Garage for FBI.
+* Fire/EMS Upgrades - Adds Barriers & Lights around Central LS Hospital.
 * Weigh Stations - 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
 * Route 13 Barriers - Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem. Route 13 Lights Download [HERE](https://forum.fivem.net/t/release-faxes-map-collection-ymap-update-31-jan/73469).
-
-These are YMAPs that i have editied. But did not Make
-* Race Track - Modified from [THIS](https://www.gta5-mods.com/maps/casino-racetrack-map-editor).
-* LS Driving School - Ported to FiveM. Original [HERE](https://www.gta5-mods.com/maps/driving-school-v).
 
 # Download & Installation:
 1) Download the .zip.
@@ -34,65 +32,59 @@ start mapaddons
 		objName = 'prop_gate_airport_01',
 		objCoords  = {x = -1587.23, y = 2805.08, z = 15.82},
 		textCoords = {x = -1587.23, y = 2805.08, z = 19.82},
-		authorizedJobs = { 'police' },
+		authorizedJobs = { 'ambulance', 'police' },
 		locked = true,
 		distance = 12,
 		size = 2
 	},
-	
 	{
 		objName = 'prop_gate_airport_01',
 		objCoords  = {x = -1600.29, y = 2793.74, z = 15.74},
 		textCoords = {x = -1600.29, y = 2793.74, z = 19.74},
-		authorizedJobs = { 'police' },
+		authorizedJobs = { 'ambulance', 'police' },
 		locked = true,
 		distance = 12,
 		size = 2
 	},
-	
 	-- Zancudo Military Base Back Entrance
 	{
 		objName = 'prop_gate_airport_01',
 		objCoords  = {x = -2296.17, y = 3393.1, z = 30.07},
 		textCoords = {x = -2296.17, y = 3393.1, z = 34.07},
-		authorizedJobs = { 'police' },
+		authorizedJobs = { 'ambulance', 'police' },
 		locked = true,
 		distance = 12,
 		size = 2
 	},
-	
 	{
 		objName = 'prop_gate_airport_01',
 		objCoords  = {x = -2306.13, y = 3379.3, z = 30.2},
 		textCoords = {x = -2306.13, y = 3379.3, z = 34.2},
-		authorizedJobs = { 'police' },
+		authorizedJobs = { 'ambulance', 'police' },
 		locked = true,
 		distance = 12,
 		size = 2
 	},
-	
 	-- Paleto Bay Parking Lot Gate
 	{
-		objName = 'prop_facgate_08',
-		objCoords  = {x = -455.59, y = 6030.1, z = 30.34},
-		textCoords = {x = -455.59, y = 6030.1, z = 34.34},
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = -451.04, y = 6025.31, z = 30.12},
+		textCoords = {x = -453.6, y = 6027.87, z = 32.12},
 		authorizedJobs = { 'police' },
 		locked = true,
 		distance = 14,
 		size = 2
 	},
-	
 	-- Mission Row PD Parking Lot Gate
 	{
-		objName = 'prop_gate_military_01',
-		objCoords  = {x = 415.71, y = -1024.84, z = 28.14},
-		textCoords = {x = 415.71, y = -1024.84, z = 30.14},
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = 415.85, y = -1025.08, z = 28.15},
+		textCoords = {x = 415.85, y = -1021.49, z = 30.15},
 		authorizedJobs = { 'police' },
 		locked = true,
 		distance = 14,
 		size = 2
 	},
-	
 	-- Sandy Shores Parking Lot Gates
 	-- PD Front Gate
 	{
@@ -104,7 +96,6 @@ start mapaddons
 		distance = 14,
 		size = 2
 	},
-	
 	-- PD Back Gate
 	{
 		objName = 'prop_gate_military_01',
@@ -115,7 +106,6 @@ start mapaddons
 		distance = 14,
 		size = 2
 	},
-	
 	-- FR Back Gate (Exit)
 	{
 		objName = 'prop_gate_military_01',
@@ -126,7 +116,6 @@ start mapaddons
 		distance = 14,
 		size = 2
 	},
-	
 	-- FR Front Gate (Entrance)
 	{
 		objName = 'prop_gate_military_01',
@@ -137,15 +126,74 @@ start mapaddons
 		distance = 14,
 		size = 2
 	},
+	-- Los Santos | FBI Building
+	-- Entrance Double Doors
+	{
+		objName = 'v_ilev_fibl_door02',
+		objCoords  = {x = 106.37, y = -742.69, z = 46.18},
+		textCoords = {x = 106.07, y = -743.76, z = 46.18},
+		authorizedJobs = { 'police' },
+		locked = false,
+		distance = 6
+	},
+	{
+		objName = 'v_ilev_fibl_door01',
+		objCoords  = {x = 105.76, y = -746.64, z = 46.18},
+		textCoords = {x = 105.71, y = -745.28, z = 46.18},
+		authorizedJobs = { 'police' },
+		locked = false,
+		distance = 6
+	},
+	-- Front Gates | Left - Right
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = 185.59, y = -732.54, z = 32.77},
+		textCoords = {x = 186.82, y = -729.06, z = 34.77},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 25,
+		size = 2
+	},
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = 190.6, y = -718.76, z = 32.77},
+		textCoords = {x = 189.27, y = -722.17, z = 34.77},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 25,
+		size = 2
+	},
+	-- Back Gates | Left - Right
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = 82.51, y = -684.89, z = 30.68},
+		textCoords = {x = 81.26, y = -688.39, z = 32.68},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 25,
+		size = 2
+	},
+	{
+		objName = 'prop_gate_airport_01',
+		objCoords  = {x = 77.53, y = -698.55, z = 30.68},
+		textCoords = {x = 78.80, y = -695.21, z = 32.68},
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 25,
+		size = 2
+	},
 
 # Other:
 If you like this please check out some of my other stuff like
-* [esx_hospital](https://github.com/HumanTree92/esx_hospital)
-* [esx_extraitems](https://github.com/HumanTree92/esx_extraitems)
+* [esx_advancedgarage](https://github.com/HumanTree92/esx_advancedgarage)
 * [esx_aircraftshop](https://github.com/HumanTree92/esx_aircraftshop)
 * [esx_boatshop](https://github.com/HumanTree92/esx_boatshop)
 * [esx_truckshop](https://github.com/HumanTree92/esx_truckshop)
-* [esx_advancedgarage](https://github.com/HumanTree92/esx_advancedgarage)
+* [esx_extraitems](https://github.com/HumanTree92/esx_extraitems)
+* [esx_licenseshop](https://github.com/HumanTree92/esx_licenseshop)
+* [esx_plasticsurgery](https://github.com/HumanTree92/esx_plasticsurgery)
+* [esx_vehiclespawner](https://github.com/HumanTree92/esx_vehiclespawner)
+* [esx_hospital](https://github.com/HumanTree92/esx_hospital)
 * [esx_panicbutton](https://github.com/HumanTree92/esx_panicbutton)
 * [FiveM_CustomMapAddons](https://github.com/HumanTree92/FiveM_CustomMapAddons)
 
@@ -168,7 +216,7 @@ If you like this please check out some of my other stuff like
 ### License
 FiveM_CustomMapAddons - Custom YMAP Files for FiveM Servers.
 
-Copyright (C) 2011-2018 Velociti Entertainment
+Copyright (C) 2011-2019 Velociti Entertainment
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
