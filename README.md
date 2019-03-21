@@ -202,7 +202,7 @@ If you like this please check out some of my other stuff like
 * [Discord](https://discord.gg/azEY2kU)
 * [Website](www.velocitientertainment.com/)
 * [Forums](www.velocitientertainment.com/forum)
-* [Servers](www.velocitientertainment.com/servers/)
+* [About Us](http://www.velocitientertainment.com/pc-gaming/)
 * [Donate](http://www.velocitientertainment.com/donations/)
 * [Steam Group](http://steamcommunity.com/groups/velocitientertainment)
 * [Facebook](www.facebook.com/VelocitiEntertainment)
