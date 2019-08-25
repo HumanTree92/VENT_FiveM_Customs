@@ -30,18 +30,18 @@ start mapaddons
 	-- Zancudo Military Base Front Entrance
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -1587.23, y = 2805.08, z = 15.82},
-		textCoords = {x = -1587.23, y = 2805.08, z = 19.82},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(-1587.23, 2805.08, 15.82),
+		textCoords = vector3(-1587.23, 2805.08, 19.82),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 12,
 		size = 2
 	},
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -1600.29, y = 2793.74, z = 15.74},
-		textCoords = {x = -1600.29, y = 2793.74, z = 19.74},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(-1600.29, 2793.74, 15.74),
+		textCoords = vector3(-1600.29, 2793.74, 19.74),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 12,
 		size = 2
@@ -49,18 +49,18 @@ start mapaddons
 	-- Zancudo Military Base Back Entrance
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -2296.17, y = 3393.1, z = 30.07},
-		textCoords = {x = -2296.17, y = 3393.1, z = 34.07},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(-2296.17, 3393.1, 30.07),
+		textCoords = vector3(-2296.17, 3393.1, 34.07),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 12,
 		size = 2
 	},
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -2306.13, y = 3379.3, z = 30.2},
-		textCoords = {x = -2306.13, y = 3379.3, z = 34.2},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(-2306.13, 3379.3, 30.2),
+		textCoords = vector3(-2306.13, 3379.3, 34.2),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 12,
 		size = 2
@@ -68,9 +68,9 @@ start mapaddons
 	-- Paleto Bay Parking Lot Gate
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -451.04, y = 6025.31, z = 30.12},
-		textCoords = {x = -453.6, y = 6027.87, z = 32.12},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(-451.04, 6025.31, 30.12),
+		textCoords = vector3(-453.6, 6027.87, 32.12),
+		authorizedJobs = {  'police' },
 		locked = true,
 		distance = 14,
 		size = 2
@@ -78,9 +78,9 @@ start mapaddons
 	-- Mission Row PD Parking Lot Gate
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 415.85, y = -1025.08, z = 28.15},
-		textCoords = {x = 415.85, y = -1021.49, z = 30.15},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(415.85, -1025.08, 28.15),
+		textCoords = vector3(415.85, -1021.49, 30.15),
+		authorizedJobs = {  'police' },
 		locked = true,
 		distance = 14,
 		size = 2
@@ -89,9 +89,9 @@ start mapaddons
 	-- PD Front Gate
 	{
 		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1871.62, y = 3681.23, z = 32.35},
-		textCoords = {x = 1871.62, y = 3681.23, z = 34.35},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(1871.62, 3681.23, 32.35),
+		textCoords = vector3(1871.62, 3681.23, 34.35),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 14,
 		size = 2
@@ -99,9 +99,9 @@ start mapaddons
 	-- PD Back Gate
 	{
 		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1858.11, y = 3719.22, z = 32.03},
-		textCoords = {x = 1858.11, y = 3719.22, z = 34.03},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(1858.11, 3719.22, 32.03),
+		textCoords = vector3(1858.11, 3719.22, 34.03),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 14,
 		size = 2
@@ -109,9 +109,9 @@ start mapaddons
 	-- FR Back Gate (Exit)
 	{
 		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1845.07, y = 3712.2, z = 32.17},
-		textCoords = {x = 1845.07, y = 3712.2, z = 34.17},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(1845.07, 3712.2, 32.17),
+		textCoords = vector3(1845.07, 3712.2, 34.17),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 14,
 		size = 2
@@ -119,9 +119,9 @@ start mapaddons
 	-- FR Front Gate (Entrance)
 	{
 		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1804.49, y = 3675.7, z = 33.21},
-		textCoords = {x = 1804.49, y = 3675.7, z = 35.21},
-		authorizedJobs = { 'ambulance', 'police' },
+		objCoords  = vector3(1804.49, 3675.7, 33.21),
+		textCoords = vector3(1804.49, 3675.7, 35.21),
+		authorizedJobs = { 'ambulance',  'police' },
 		locked = true,
 		distance = 14,
 		size = 2
@@ -130,35 +130,35 @@ start mapaddons
 	-- Entrance Double Doors
 	{
 		objName = 'v_ilev_fibl_door02',
-		objCoords  = {x = 106.37, y = -742.69, z = 46.18},
-		textCoords = {x = 106.07, y = -743.76, z = 46.18},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(106.37, -742.69, 46.18),
+		textCoords = vector3(106.07, -743.76, 46.18),
+		authorizedJobs = {  'police' },
 		locked = false,
 		distance = 6
 	},
 	{
 		objName = 'v_ilev_fibl_door01',
-		objCoords  = {x = 105.76, y = -746.64, z = 46.18},
-		textCoords = {x = 105.71, y = -745.28, z = 46.18},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(105.76, -746.64, 46.18),
+		textCoords = vector3(105.71, -745.28, 46.18),
+		authorizedJobs = {  'police' },
 		locked = false,
 		distance = 6
 	},
 	-- Front Gates | Left - Right
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 185.59, y = -732.54, z = 32.77},
-		textCoords = {x = 186.82, y = -729.06, z = 34.77},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(185.59, -732.54, 32.77),
+		textCoords = vector3(186.82, -729.06, 34.77),
+		authorizedJobs = {  'police' },
 		locked = true,
 		distance = 25,
 		size = 2
 	},
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 190.6, y = -718.76, z = 32.77},
-		textCoords = {x = 189.27, y = -722.17, z = 34.77},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(190.6, -718.76, 32.77),
+		textCoords = vector3(189.27, -722.17, 34.77),
+		authorizedJobs = {  'police' },
 		locked = true,
 		distance = 25,
 		size = 2
@@ -166,18 +166,18 @@ start mapaddons
 	-- Back Gates | Left - Right
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 82.51, y = -684.89, z = 30.68},
-		textCoords = {x = 81.26, y = -688.39, z = 32.68},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(82.51, -684.89, 30.68),
+		textCoords = vector3(81.26, -688.39, 32.68),
+		authorizedJobs = {  'police' },
 		locked = true,
 		distance = 25,
 		size = 2
 	},
 	{
 		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 77.53, y = -698.55, z = 30.68},
-		textCoords = {x = 78.80, y = -695.21, z = 32.68},
-		authorizedJobs = { 'police' },
+		objCoords  = vector3(77.53, -698.55, 30.68),
+		textCoords = vector3(78.80, -695.21, 32.68),
+		authorizedJobs = {  'police' },
 		locked = true,
 		distance = 25,
 		size = 2
