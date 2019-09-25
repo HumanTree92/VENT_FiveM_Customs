@@ -10,10 +10,14 @@ These are Custom Map Addons that i have made. These are only to Improve RP Exper
   * [Misc Upgrades Images HERE](https://imgur.com/a/zoEPwae)
 * Military Gates Upgrades - Adds Gates & Signs at Military Base.
   * [Military Gates Upgrades Images HERE](https://imgur.com/a/AHk3AnF)
+* Event Maps - Adds Various Props on map for Events.
+* Job Center - Adds Bollards around the Center of LS to stop people from driving into that area.
 * FBI Upgrades - Adds Gates, Fences, & secures the Parking Garage for FBI.
 * Fire/EMS Upgrades - Adds Barriers & Lights around Central LS Hospital.
 * Weigh Stations - 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
 * Route 13 Barriers - Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem. Route 13 Lights Download [HERE](https://forum.fivem.net/t/release-faxes-map-collection-ymap-update-31-jan/73469).
+
+Note: Pictures will be updated at a later time. 
 
 # Download & Installation:
 1) Download the .zip.
@@ -26,162 +30,188 @@ These are Custom Map Addons that i have made. These are only to Improve RP Exper
 start mapaddons
 ```
 # esx_doorlock Gates:
+Config.DoorList = {
+	-- Mission Row PD | Front Parking Lot Gate
+	{
+		objName = 'prop_gate_airport_01',
+		objYaw = -91.0,
+		objCoords  = vector3(415.8, -1025.0, 28.1),
+		textCoords = vector3(415.8, -1021.4, 30.1),
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Sandy Shores PD | Front Parking Lot Gate
+	{
+		objName = 'prop_gate_military_01',
+		objYaw = 28.9,
+		objCoords  = vector3(1871.6, 3681.2, 32.3),
+		textCoords = vector3(1874.9, 3682.9, 34.3),
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Sandy Shores PD | Back Parking Lot Gate 1
+	{
+		objName = 'prop_gate_military_01',
+		objYaw = -151.9,
+		objCoords  = vector3(1858.1, 3719.2, 32.0),
+		textCoords = vector3(1854.7, 3717.3, 34.0),
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Sandy Shores PD | Back Parking Lot Gate 2
+	{
+		objName = 'prop_gate_military_01',
+		objYaw = -151.9,
+		objCoords  = vector3(1845.0, 3712.2, 32.1),
+		textCoords = vector3(1842.1, 3710.4, 34.1),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Sandy Shores PD | Side Parking Lot Gate
+	{
+		objName = 'prop_gate_military_01',
+		objYaw = 120.9,
+		objCoords  = vector3(1804.4, 3675.7, 33.2),
+		textCoords = vector3(1802.5, 3679.0, 35.2),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Paleto Bay PD | Front Parking Lot Gate
+	{
+		objName = 'prop_gate_airport_01',
+		objYaw = -45.9,
+		objCoords  = vector3(-451.0, 6025.3, 30.1),
+		textCoords = vector3(-453.6, 6027.8, 32.1),
+		authorizedJobs = { 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Zancudo Military Base Gates | Route 68 Entrance
+	{
+		objName = 'prop_gate_airport_01',
+		objYaw = -139.9,
+		objCoords  = vector3(-1600.2, 2793.7, 15.7),
+		textCoords = vector3(-1597.4, 2796.3, 19.7),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	{
+		objName = 'prop_gate_airport_01',
+		objYaw = 44.4,
+		objCoords  = vector3(-1587.2, 2805.0, 15.8),
+		textCoords = vector3(-1590.0, 2802.1, 19.8),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- Zancudo Military Base Gates | Great Ocean Hwy Entrance
+	{
+		objName = 'prop_gate_airport_01',
+		objYaw = 54.9,
+		objCoords  = vector3(-2296.1, 3393.1, 30.0),
+		textCoords = vector3(-2298.3, 3389.9, 34.0),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	{
+		objName = 'prop_gate_airport_01',
+		objYaw = -126.9,
+		objCoords  = vector3(-2306.1, 3379.3, 30.2),
+		textCoords = vector3(-2303.6, 3382.3, 34.2),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 14,
+		size = 2
+	},
+	
+	-- FBI Building Double Doors
+	{
+		textCoords = vector3(105.8, -744.6, 46.9),
+		authorizedJobs = { 'police' },
+		locked = false,
+		distance = 6,
+		doors = {
+			{
+				objName = 'v_ilev_fibl_door01',
+				objYaw = 84.0,
+				objCoords  = vector3(105.7, -746.6, 46.1)
+			},
 
-	-- Zancudo Military Base Front Entrance
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -1587.23, y = 2805.08, z = 15.82},
-		textCoords = {x = -1587.23, y = 2805.08, z = 19.82},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 12,
-		size = 2
+			{
+				objName = 'v_ilev_fibl_door02',
+				objYaw = 78.2,
+				objCoords  = vector3(106.3, -742.6, 46.1)
+			}
+		}
 	},
+	
+	-- FBI Building Gates | Elgin Ave Entrance
 	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -1600.29, y = 2793.74, z = 15.74},
-		textCoords = {x = -1600.29, y = 2793.74, z = 19.74},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 12,
-		size = 2
-	},
-	-- Zancudo Military Base Back Entrance
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -2296.17, y = 3393.1, z = 30.07},
-		textCoords = {x = -2296.17, y = 3393.1, z = 34.07},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 12,
-		size = 2
-	},
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -2306.13, y = 3379.3, z = 30.2},
-		textCoords = {x = -2306.13, y = 3379.3, z = 34.2},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 12,
-		size = 2
-	},
-	-- Paleto Bay Parking Lot Gate
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = -451.04, y = 6025.31, z = 30.12},
-		textCoords = {x = -453.6, y = 6027.87, z = 32.12},
-		authorizedJobs = { 'police' },
-		locked = true,
-		distance = 14,
-		size = 2
-	},
-	-- Mission Row PD Parking Lot Gate
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 415.85, y = -1025.08, z = 28.15},
-		textCoords = {x = 415.85, y = -1021.49, z = 30.15},
-		authorizedJobs = { 'police' },
-		locked = true,
-		distance = 14,
-		size = 2
-	},
-	-- Sandy Shores Parking Lot Gates
-	-- PD Front Gate
-	{
-		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1871.62, y = 3681.23, z = 32.35},
-		textCoords = {x = 1871.62, y = 3681.23, z = 34.35},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 14,
-		size = 2
-	},
-	-- PD Back Gate
-	{
-		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1858.11, y = 3719.22, z = 32.03},
-		textCoords = {x = 1858.11, y = 3719.22, z = 34.03},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 14,
-		size = 2
-	},
-	-- FR Back Gate (Exit)
-	{
-		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1845.07, y = 3712.2, z = 32.17},
-		textCoords = {x = 1845.07, y = 3712.2, z = 34.17},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 14,
-		size = 2
-	},
-	-- FR Front Gate (Entrance)
-	{
-		objName = 'prop_gate_military_01',
-		objCoords  = {x = 1804.49, y = 3675.7, z = 33.21},
-		textCoords = {x = 1804.49, y = 3675.7, z = 35.21},
-		authorizedJobs = { 'ambulance', 'police' },
-		locked = true,
-		distance = 14,
-		size = 2
-	},
-	-- Los Santos | FBI Building
-	-- Entrance Double Doors
-	{
-		objName = 'v_ilev_fibl_door02',
-		objCoords  = {x = 106.37, y = -742.69, z = 46.18},
-		textCoords = {x = 106.07, y = -743.76, z = 46.18},
-		authorizedJobs = { 'police' },
-		locked = false,
-		distance = 6
-	},
-	{
-		objName = 'v_ilev_fibl_door01',
-		objCoords  = {x = 105.76, y = -746.64, z = 46.18},
-		textCoords = {x = 105.71, y = -745.28, z = 46.18},
-		authorizedJobs = { 'police' },
-		locked = false,
-		distance = 6
-	},
-	-- Front Gates | Left - Right
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 185.59, y = -732.54, z = 32.77},
-		textCoords = {x = 186.82, y = -729.06, z = 34.77},
+		textCoords = vector3(188.1, -725.6, 35.7),
 		authorizedJobs = { 'police' },
 		locked = true,
 		distance = 25,
-		size = 2
+		size = 2,
+		doors = {
+			{
+				objName = 'prop_gate_airport_01',
+				objYaw = -110.0,
+				objCoords  = vector3(185.5, -732.5, 32.7)
+			},
+
+			{
+				objName = 'prop_gate_airport_01',
+				objYaw = 70.0,
+				objCoords  = vector3(190.6, -718.7, 32.7)
+			}
+		}
 	},
+	
+	-- FBI Building Gates | Power St Entrance
 	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 190.6, y = -718.76, z = 32.77},
-		textCoords = {x = 189.27, y = -722.17, z = 34.77},
+		textCoords = vector3(80.0, -691.7, 33.6),
 		authorizedJobs = { 'police' },
 		locked = true,
 		distance = 25,
-		size = 2
+		size = 2,
+		doors = {
+			{
+				objName = 'prop_gate_airport_01',
+				objYaw = 70.0,
+				objCoords  = vector3(82.5, -684.8, 30.6)
+			},
+
+			{
+				objName = 'prop_gate_airport_01',
+				objYaw = -110.0,
+				objCoords  = vector3(77.5, -698.5, 30.6)
+			}
+		}
 	},
-	-- Back Gates | Left - Right
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 82.51, y = -684.89, z = 30.68},
-		textCoords = {x = 81.26, y = -688.39, z = 32.68},
-		authorizedJobs = { 'police' },
-		locked = true,
-		distance = 25,
-		size = 2
-	},
-	{
-		objName = 'prop_gate_airport_01',
-		objCoords  = {x = 77.53, y = -698.55, z = 30.68},
-		textCoords = {x = 78.80, y = -695.21, z = 32.68},
-		authorizedJobs = { 'police' },
-		locked = true,
-		distance = 25,
-		size = 2
-	},
+}
 
 # Other:
 If you like this please check out some of my other stuff like
