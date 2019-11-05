@@ -1,23 +1,43 @@
 # [YMAP] FiveM & GTA V Custom Map Addons:
-These are Custom Map Addons that i have made. These are only to Improve RP Experience within FiveM. Don't ask for the XMLs & don't Upload anywhere else without my permission.
-* LSPD Upgrades - Adds Gates, Fences, Lighting, & Increases the looks of Mission Row Police Dept.
-  * [LSPD Upgrades Images HERE](https://imgur.com/a/sDzbEhL)
-* SSSD Upgrades - Adds Gates, Fences, Lighting, Heli Pads, & Increases the looks of Sandy Shores Sheriffs Dept.
-  * [SSSD Upgrades Images HERE](https://imgur.com/a/Y8FR0a0)
-* PBSD Upgrades - Adds Gate, Lighting, & Increases the looks of Paleto Bay Sheriffs Dept.
-  * [PBSD Upgrades Images HERE](https://imgur.com/a/j0jmmNH)
-* Misc Upgrades - Adds various lighting on Heli Pads & buildings.
-  * [Misc Upgrades Images HERE](https://imgur.com/a/zoEPwae)
-* Military Gates Upgrades - Adds Gates & Signs at Military Base.
-  * [Military Gates Upgrades Images HERE](https://imgur.com/a/AHk3AnF)
-* Event Maps - Adds Various Props on map for Events.
-* Job Center - Adds Bollards around the Center of LS to stop people from driving into that area.
-* FBI Upgrades - Adds Gates, Fences, & secures the Parking Garage for FBI.
-* Fire/EMS Upgrades - Adds Barriers & Lights around Central LS Hospital.
-* Weigh Stations - 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
-* Route 13 Barriers - Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem. Route 13 Lights Download [HERE](https://forum.fivem.net/t/release-faxes-map-collection-ymap-update-31-jan/73469).
+These are Custom Map Addons that i have made. These are only to Improve RP Experience within FiveM.
+* Event_Structures
+  * Adds Various Props on map for Events.
+* Fort_Zancudo_Driving_Test
+  * Adds Driving Test at Fort Zancudo.
+* Fort_Zancudo_Gates
+  * Adds Gates to Fort Zancudo.
+* Legion_Square
+  * Adds Barriers around Legion Square to stop people from Driving in there.
+* Los_Santos_Central_EMS_Upgrades
+  * Adds Barriers & Lights around the Los Santos Central Hospital.
+* Los_Santos_FIB_Building
+  * Adds Gates, Fences, & Secures the Parking Garage for the FIB Building in Los Santos.
+* Los_Santos_Mission_Row_Policing_Upgrades
+  * Adds Gates, Fences, Lighting, & Increases the looks of Mission Row Police Department in Los Santos.
+* Los_Santos_Pillbox_Hill_Upgrades
+  * Adds Gates, Fences, & Lighting to Pillbox Hill Hospital in Los Santos.
+* Los_Santos_Rescue_Upgrades
+  * Adds Various Props to the Fire Departments in Los Santos.
+* Paleto_Bay_EMS_Upgrades
+  * Adds Barriers & Heli Pad to the Hospital in Paleto Bay.
+* Paleto_Bay_Policing_Upgrades
+  * Adds Barriers, Gate, Lighting, & Increases the looks of the Sheriffs Department in Paleto Bay.
+* Paleto_Bay_Rescue_Upgrades
+  * Adds Barriers & Lighting to the Fire Department in Paleto Bay.
+* Route_13_Barriers
+  * Used for the Route 13 Traffic Lights. If someone runs into them they break & will no longer work. This solves that problem. Route 13 Lights Download [HERE](https://forum.fivem.net/t/release-faxes-map-collection-ymap-update-31-jan/73469).
+* Sandy_Shores_Airfield_Upgrades
+  * Adds some lighting for Sandy Shores Airfield.
+* Sandy_Shores_Policing_Upgrades
+  * Adds Gates, Fences, Heli Pads, Lighting, & Increases the looks of the Sheriffs Department in Sandy Shores.
+* Sandy_Shores_Rescue_Upgrades
+  * Adds Barriers & Lighting for the Fire Department in Sandy Shores.
+* Sandy_Shores_Tow_Upgrades
+  * Adds Various Props around the Tow Yard in Sandy Shores.
+* Weigh_Stations
+  * Adds Weigh Stations around map. 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
 
-Note: Pictures will be updated at a later time. 
+Note: I will not be uploading any pictures of the maps. I suggest to use CodeWalkers 3D Map Editor to View everything.
 
 # Download & Installation:
 1) Download the .zip.
@@ -31,7 +51,7 @@ start mapaddons
 ```
 # esx_doorlock Gates:
 Config.DoorList = {
-	-- Mission Row PD | Front Parking Lot Gate
+	-- Los_Santos_Mission_Row_Policing_Upgrades | Front Parking Lot Gate
 	{
 		objName = 'prop_gate_airport_01',
 		objYaw = -91.0,
@@ -43,7 +63,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Sandy Shores PD | Front Parking Lot Gate
+	-- Sandy_Shores_Policing_Upgrades | Front Parking Lot Gate
 	{
 		objName = 'prop_gate_military_01',
 		objYaw = 28.9,
@@ -55,7 +75,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Sandy Shores PD | Back Parking Lot Gate 1
+	-- Sandy_Shores_Policing_Upgrades | Back Parking Lot Gate 1
 	{
 		objName = 'prop_gate_military_01',
 		objYaw = -151.9,
@@ -67,7 +87,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Sandy Shores PD | Back Parking Lot Gate 2
+	-- Sandy_Shores_Policing_Upgrades | Back Parking Lot Gate 2
 	{
 		objName = 'prop_gate_military_01',
 		objYaw = -151.9,
@@ -79,7 +99,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Sandy Shores PD | Side Parking Lot Gate
+	-- Sandy_Shores_Policing_Upgrades | Side Parking Lot Gate
 	{
 		objName = 'prop_gate_military_01',
 		objYaw = 120.9,
@@ -91,7 +111,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Paleto Bay PD | Front Parking Lot Gate
+	-- Paleto_Bay_Policing_Upgrades | Front Parking Lot Gate
 	{
 		objName = 'prop_gate_airport_01',
 		objYaw = -45.9,
@@ -103,7 +123,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Zancudo Military Base Gates | Route 68 Entrance
+	-- Fort_Zancudo_Gates | Route 68 Entrance
 	{
 		objName = 'prop_gate_airport_01',
 		objYaw = -139.9,
@@ -125,7 +145,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- Zancudo Military Base Gates | Great Ocean Hwy Entrance
+	-- Fort_Zancudo_Gates | Great Ocean Hwy Entrance
 	{
 		objName = 'prop_gate_airport_01',
 		objYaw = 54.9,
@@ -147,7 +167,7 @@ Config.DoorList = {
 		size = 2
 	},
 	
-	-- FBI Building Double Doors
+	-- Los_Santos_FIB_Building | Double Doors
 	{
 		textCoords = vector3(105.8, -744.6, 46.9),
 		authorizedJobs = { 'police' },
@@ -168,7 +188,7 @@ Config.DoorList = {
 		}
 	},
 	
-	-- FBI Building Gates | Elgin Ave Entrance
+	-- Los_Santos_FIB_Building | Elgin Ave Entrance
 	{
 		textCoords = vector3(188.1, -725.6, 35.7),
 		authorizedJobs = { 'police' },
@@ -190,7 +210,7 @@ Config.DoorList = {
 		}
 	},
 	
-	-- FBI Building Gates | Power St Entrance
+	-- Los_Santos_FIB_Building | Power St Entrance
 	{
 		textCoords = vector3(80.0, -691.7, 33.6),
 		authorizedJobs = { 'police' },
@@ -208,6 +228,28 @@ Config.DoorList = {
 				objName = 'prop_gate_airport_01',
 				objYaw = -110.0,
 				objCoords  = vector3(77.5, -698.5, 30.6)
+			}
+		}
+	},
+	
+	-- Los_Santos_Pillbox_Hill_Upgrades | LS Freeway
+	{
+		textCoords = vector3(400.0, -549.5, 30.58),
+		authorizedJobs = { 'ambulance', 'police' },
+		locked = true,
+		distance = 25,
+		size = 2,
+		doors = {
+			{
+				objName = 'prop_gate_airport_01',
+				objYaw = -127.07,
+				objCoords  = vector3(396.70, -556.45, 27.58)
+			},
+
+			{
+				objName = 'prop_gate_airport_01',
+				objYaw = 53.3,
+				objCoords  = vector3(405.47, -544.73, 27.58)
 			}
 		}
 	},
