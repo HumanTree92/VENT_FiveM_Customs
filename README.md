@@ -1,5 +1,7 @@
 # [YMAP] FiveM & GTA V Custom Map Addons:
 These are Custom Map Addons that i have made. These are only to Improve RP Experience within FiveM.
+
+# Helpfull Info:
 * Event_Structures
   * Adds Various Props on map for Events.
 * Fort_Zancudo_Driving_Test
@@ -38,6 +40,12 @@ These are Custom Map Addons that i have made. These are only to Improve RP Exper
   * Adds Weigh Stations around map. 2 where used from [HERE](https://www.gta5-mods.com/maps/weigh-station-officerdeyoung).
 
 Note: I will not be uploading any pictures of the maps. I suggest to use CodeWalkers 3D Map Editor to View everything.
+
+# Requirements:
+* Required:
+  * NONE
+* Optional:
+  * [esx_doorlock](https://github.com/ESX-PUBLIC/esx_doorlock)
 
 # Download & Installation:
 1) Download the .zip.
@@ -260,6 +268,8 @@ If you like this please check out some of my other stuff like
 * [esx_advancedgarage](https://github.com/HumanTree92/esx_advancedgarage)
 * [esx_advancedvehicleshop](https://github.com/HumanTree92/esx_advancedvehicleshop)
 * [esx_advancedhospital](https://github.com/HumanTree92/esx_advancedhospital)
+* [esx_advancedweaponshop](https://github.com/HumanTree92/esx_advancedweaponshop)
+* [esx_advancedfuel](https://github.com/HumanTree92/esx_advancedfuel)
 * [esx_extraitems](https://github.com/HumanTree92/esx_extraitems)
 * [esx_licenseshop](https://github.com/HumanTree92/esx_licenseshop)
 * [esx_vehiclespawner](https://github.com/HumanTree92/esx_vehiclespawner)
@@ -290,7 +300,7 @@ Scripts that will no longer be Maintained.
 
 # Legal
 ### License
-FiveM_CustomMapAddons - Custom YMAP Files for FiveM Servers.
+FiveM_CustomMapAddons - Custom YMAP Files for FiveM
 
 Copyright (C) 2011-2020 Velociti Entertainment
 
