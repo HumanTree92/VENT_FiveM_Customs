@@ -1,5 +1,5 @@
 # [YMAP] FiveM & GTA V Custom Map Addons:
-Custom Map Addons for FiveM - Made by Human Tree92 ([Velociti Entertainment Customs & Wiki](http://www.velocitientertainment.com/customs/))
+Custom Map Addons for FiveM - Made by Human Tree92 ([Velociti Entertainment Customs & Wiki]( http://www.velocitientertainment.com/customs/ ))
 
 # V1 Helpfull Info:
 * Event_Structures
@@ -45,7 +45,7 @@ Note: I will not be uploading any pictures of the maps. I suggest to use CodeWal
 ### License
 FiveM_CustomMapAddons - Custom YMAP Files for FiveM
 
-Copyright (C) 2011-2020 Velociti Entertainment
+Copyright (C) 2011-2021 Velociti Entertainment
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
