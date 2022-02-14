@@ -10,8 +10,6 @@ Custom Map Addons for FiveM - Made by Human Tree92 ([Velociti Entertainment Cust
 * Feel free to make changes but GIVE CREDITS if you plan on release edits of my work.
 
 # Requirements:
-* Required:
-  * NONE
 * Optional:
   * [esx_doorlock]( https://github.com/ESX-PUBLIC/esx_doorlock )
 
@@ -24,28 +22,7 @@ Custom Map Addons for FiveM - Made by Human Tree92 ([Velociti Entertainment Cust
 
 # Other Scripts:
 If you like this please check out some of my other stuff like
-* [esx_advancedbanking]( https://github.com/HumanTree92/esx_advancedbanking )
-* [esx_advancedgarage]( https://github.com/HumanTree92/esx_advancedgarage )
-* [esx_advancedholdup]( https://github.com/HumanTree92/esx_advancedholdup )
-* [esx_advancedhospital]( https://github.com/HumanTree92/esx_advancedhospital )
-* [esx_advancedjail]( https://github.com/HumanTree92/esx_advancedjail )
-* [esx_advancedvehicleshop]( https://github.com/HumanTree92/esx_advancedvehicleshop )
-* [esx_advancedweaponshop]( https://github.com/HumanTree92/esx_advancedweaponshop )
-* [esx_extraitems]( https://github.com/HumanTree92/esx_extraitems )
-* [esx_joblisting]( https://github.com/HumanTree92/esx_joblisting )
-* [esx_licenseshop]( https://github.com/HumanTree92/esx_licenseshop )
-* [esx_vehiclespawner]( https://github.com/HumanTree92/esx_vehiclespawner )
-* [esx_vehicletheft]( https://github.com/HumanTree92/esx_vehicletheft )
-* [FiveM_CustomMapAddons]( https://github.com/HumanTree92/FiveM_CustomMapAddons )
-
-# Archived Scripts:
-Scripts that will no longer be Maintained.
-* [esx_aircraftshop]( https://github.com/HumanTree92/esx_aircraftshop )
-* [esx_boatshop]( https://github.com/HumanTree92/esx_boatshop )
-* [esx_truckshop]( https://github.com/HumanTree92/esx_truckshop )
-* [esx_plasticsurgery]( https://github.com/HumanTree92/esx_plasticsurgery )
-* [esx_hospital]( https://github.com/HumanTree92/esx_hospital )
-* [esx_panicbutton]( https://github.com/HumanTree92/esx_panicbutton )
+* [VENT_ESX_Scripts]( https://github.com/HumanTree92/VENT_ESX_Scripts )
 
 # Visit Velociti Entertainment:
 * [Discord]( https://discord.velocitientertainment.com )
