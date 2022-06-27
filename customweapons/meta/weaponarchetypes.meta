@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<!-- MELEE -->
+		<Item>
+			<modelName>w_me_dildo</modelName>
+			<txdName>w_me_dildo</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_me_bkatana</modelName>
+			<txdName>w_me_bkatana</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_me_gkatana</modelName>
+			<txdName>w_me_gkatana</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_me_rkatana</modelName>
+			<txdName>w_me_rkatana</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_me_blightsaber</modelName>
+			<txdName>w_me_blightsaber</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_me_glightsaber</modelName>
+			<txdName>w_me_glightsaber</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_me_rlightsaber</modelName>
+			<txdName>w_me_rlightsaber</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<!-- PISTOLS -->
+		<Item>
+			<modelName>w_pi_radar</modelName>
+			<txdName>w_pi_radar</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_bpaintball_mag1</modelName>
+			<txdName>w_pi_bpaintball_mag1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_bpaintball</modelName>
+			<txdName>w_pi_bpaintball</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_gpaintball_mag1</modelName>
+			<txdName>w_pi_gpaintball_mag1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_gpaintball</modelName>
+			<txdName>w_pi_gpaintball</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_rpaintball_mag1</modelName>
+			<txdName>w_pi_rpaintball_mag1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>w_pi_rpaintball</modelName>
+			<txdName>w_pi_rpaintball</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		<!-- SHOTGUNS -->
+		<Item>
+			<modelName>w_sg_llshotgun</modelName>
+			<txdName>w_sg_llshotgun</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
