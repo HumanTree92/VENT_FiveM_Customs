@@ -2,6 +2,7 @@
 Made by Human Tree92 ([Velociti Entertainment Customs & Wiki]( http://www.velocitientertainment.com/customs/ ))
 
 # Helpfull Info:
+* All Weapons are Addon Weapons. You can find the Spawn name in `weapon_names.lua`.
 * Includes these Weapons:
   * Pink Dildo - Melee
   * Red, Green, & Blue Lightsaber - Melee

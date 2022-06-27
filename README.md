@@ -3,9 +3,9 @@ Custom Stuff Made by Human Tree92 ([Velociti Entertainment Customs]( http://www.
 
 # Helpfull Info:
 * CustomMaps:
-  * yMaps that i have made for FiveM.
+  * Addon yMaps that i have made for FiveM.
 * CustomWeapons:
-  * Weapons that i have found & edited to work for FiveM.
+  * Addon Weapons that i have found & edited to work for FiveM.
 
 # Requirements:
 * Required:
