@@ -25,7 +25,7 @@ If you like this please check out some of my other stuff like
 # Visit Velociti Entertainment:
 * [Discord]( https://discord.velocitientertainment.com )
 * [Website]( https://velocitientertainment.com )
-* [Donate]( https://donate.velocitientertainment.com )
+* [Donate]( https://velocitientertainment.weebly.com/donations.html )
 * [Patreon]( https://www.patreon.com/VelocitiEntertainment?fan_landing=true )
 * [Steam Group]( https://steamcommunity.com/groups/velocitientertainment )
 * [Facebook]( https://facebook.com/VelocitiEntertainment )
